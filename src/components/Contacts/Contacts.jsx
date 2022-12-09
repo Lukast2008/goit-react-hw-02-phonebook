@@ -15,6 +15,6 @@ export const ContactList = ({ contact, contactDelete }) => {
 };
 
 ContactList.propTypes = {
-  filterContacts: PropTypes.func,
-  deleteContact: PropTypes.func,
+  contact: PropTypes.func,
+  contactDelete: PropTypes.func,
 }
